@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @ensalada.name %>
+</p>
+
+<p>
+  <strong>Tipo:</strong>
+  <%= @ensalada.tipo %>
+</p>
+
+<p>
+  <strong>Valor:</strong>
+  <%= @ensalada.valor %>
+</p>
+
+<%= link_to 'Edit', edit_ensalada_path(@ensalada) %> |
+<%= link_to 'Back', ensaladas_path %>
